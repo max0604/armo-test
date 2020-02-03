@@ -18,7 +18,6 @@ public:
 ///----------------------------------------------------------------------------
 char* Echo_i::echoString(const char* mesg)
 {
-    ///cout << "Upcall " << mesg << endl;
     cout << mesg << endl;
     return CORBA::string_dup(mesg);
 }
